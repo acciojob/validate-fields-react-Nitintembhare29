@@ -9,7 +9,6 @@ const App = () => {
   const validate = ()=>{
     if(value.name==="" || value.password===""){
       setValue({...value, error: "Both username and password are required."})
-      console.log({value})
     } 
   }
   return (
